@@ -12,7 +12,7 @@ const TruthCheckModal: React.FC<TruthCheckModalProps> = ({ show, handleClose }) 
 
  
   const handleCancel = () => {
-    navigate('/dashboard'); 
+    navigate('/Dashboard'); 
     handleClose(); 
   };
 
