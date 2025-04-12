@@ -1,0 +1,14 @@
+/* Default styling for smaller screens */
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Responsive styles for larger screens */
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row; /* Display side by side */
+      justify-content: space-between;
+    }
+  }
+  
